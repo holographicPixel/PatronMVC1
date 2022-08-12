@@ -8,23 +8,10 @@ namespace PatronMVC1.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        // GET: Home
+        public String Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return "<html><body><h1>Prueba</h1></body></html>";
         }
     }
 }
